@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header,
+div,
+section,
+footer {
+  outline: 1px dotted green;
+  min-height: 100px;
+}
+
+.nav-tab {
+  float: left;
+  width: 15%;
+}
+
+.sec-body{
+  float: left;
+  width: 85%;
+}
