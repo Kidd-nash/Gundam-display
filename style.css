@@ -21,3 +21,11 @@ footer {
   float: left;
   width: 85%;
 }
+
+div.header {
+  background-image: url(/Gundam-display/Header_BG.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-size: 410px 700px;
+  height: 550px;*/
+}
