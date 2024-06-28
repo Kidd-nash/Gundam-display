@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header,
+div,
+section,
+footer {
+  outline: 1px dotted green;
+  min-height: 100px;
+  float: left;
+  width: 100%;
+}
+
+.nav-tab {
+  float: left;
+  width: 20%;
+}
+
+.sec-body{
+  float: left;
+  width: 80%;
+}
+
+header {
+  background-image: url(/Gundam-display/Header3_BG.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 1500px 200px;
+  height: 200px;
+}
+
+.header-title {
+  background-color: white;
+  text-align: center;
+  opacity: 0.50;
+  font-size: 35px;
+}
+
+#body-BG {
+  background-image: url(/Gundam-display/Body_BG.jpg);
+  background-repeat: no-repeat;
+  width: 80%;
+  min-height
+  /*background-attachment: fixed;*/
+  /* background-size: 1500px 1200px;
+  height: 500px;*/
+}
