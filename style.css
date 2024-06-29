@@ -19,7 +19,7 @@ header {
   position: fixed;
   height: 200px;
   width: 100%;
-  background-image: url(/Gundam-display/Header3_BG.jpg);
+  background-image: url(/Gundam-display/Image-Compilation/Header3_BG.jpg);
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-size: 1500px 200px;
@@ -72,7 +72,7 @@ a {
 /* body */
 .secBody {
   float: left;
-  background-image: url(/Gundam-display/Body_BG.jpg);
+  background-image: url(/Gundam-display/Image-Compilation/Body_BG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -145px;
