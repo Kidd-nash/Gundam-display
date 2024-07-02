@@ -82,6 +82,11 @@ a {
 .bodyParagraph {
   padding: 8px 15px;
 }
+span.wing-name {
+  position: relative;
+  top: 460px;
+  right: 295px;
+}
 /* footer */
 .footerBot {
   position: fixed;

@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="wing.js"></script>
     <title>Gundam Wing Displays</title>
     <link rel="icon" href="/Gundam-display/Gundam-logo.jpg"/>
   </head>
   <body>
     <header class="header">
-      <img class="headerLogo" style="width: 150px" src="Gundam-logo.jpg" alt="Logo" />
+      <img class="headerLogo" style="width: 150px"
+      src="Gundam-logo.jpg" alt="Logo" />
       <h2 class="headerTitle">Gunpla Wing Collection Web</h2>
     </header>
     <section class="mainSection">
@@ -34,16 +36,27 @@
         <ul style="position: absolute; top: 15px; left: 15px;">
           <li class="thumb-wrapper">
             <a href="gundam-wing.html" target="_blank">
-              <img class="display-thumb" src="Image-Compilation/wingF.jpg"
-                   alt="This is a Wing RG Gunpla" />
+              <figure>
+                <img class="display-thumb" src="Image-Compilation/wingF.jpg"
+                     id="wing-name"
+                     alt="This is a Wing RG Gunpla" />
+                <figcaption class="wing-name" id="id-for-wing"></figcaption>
+              </figure>
             </a>
+
           </li>
+
           <li class="thumb-wrapper">
             <a href="" target="_blank">
-              <img class="display-thumb" src="Image-Compilation/tallgeeseF.jpg"
-                   alt="This is a Tallgeese RG Gunpla">
+              <figure>
+               <img class="display-thumb" src="Image-Compilation/tallgeeseF.jpg"
+                   alt="This is a Tallgeese RG Gunpla" id="tallgeese-name">
+               <figcaption  class="tallgeese-name" id="id-for-tallgeese">
+               </figcaption>
+              </figure>
             </a>
           </li>
+
         </ul>
       </div>
     </section>

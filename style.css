@@ -108,8 +108,9 @@ a {
   border-radius: 25px;
 }
 .thumb-wrapper {
+  position: relative;
   float: left;
-  padding: 60px 123px;
+  padding: 60px 110px;
 }
 .thumb-wrapper-ibo {
   padding: 60px 37px;
@@ -117,6 +118,31 @@ a {
 .thumb-wrapper a {
   padding: 0;
 }
+figcaption {
+   color: rgb(255, 255, 255);
+   text-align: center;
+}
+
+/*
+  span.wing-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+
+  color: rgb(255, 255, 255);
+}
+span.tallgeese-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+
+  color: rgb(255, 255, 255);
+}
+*/
 
 /* footer */
 .footerBot {
