@@ -33,6 +33,11 @@ header {
   margin: 25px;
   float: left;
 }
+
+img[src*="Gundam-logo.jpg"] {
+  width: 150px;
+}
+
 .headerTitle {
   display: inline-block;
   background-color: rgb(255, 255, 255);
@@ -71,7 +76,7 @@ a {
 
 .navTab {
   float: left;
-  min-height: 515px;
+  height: 515px;
   width: 20%;
   background-color: rgb(10, 32, 90);
   padding-top: 20px;
@@ -158,4 +163,39 @@ span.tallgeese-name {
   text-align: right;
   padding: 10px 25px;
   color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 770px) {
+  img[src*="Gundam-logo.jpg"] {
+    width: 120px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  * {
+    font-size: 13px;
+  }
+
+  img[src*="Gundam-logo.jpg"] {
+    width: 100px;
+  }
+  .navTab {
+    /* display: none; */
+    width: 100%;
+    max-height: 40px; */
+  }
+
+  .headerTitle {
+    margin-top: 37px;
+  }
+
+  .secBody {
+    width: 100%;
+    background-position-y: -90px;
+  }
+
+  .mainSection {
+    margin-top: 160px;
+  }
+  li {
+    float: left;
+  }
 }
