@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 1);
+  background-image: url(/Gundam-display/Image-Compilation/Header3_BG.jpg);
+  background-size: 100%;
+}
+
+.header {
+  border: 1px solid rgb(0, 0, 0);
+  /* background-color: rgba(255, 255, 0, 0.6); */
+  height: 150px;
+}
+
+.header_container {
+  display: flex;
+  flex-direction: row;
+}
+
+img[src*="/Gundam-display/Gundam-logo.jpg"] {
+  width: 105px;
+}
+
+.content {
+  border: 1px solid rgb(0, 0, 0);
+  background-image: url(/Gundam-display/Image-Compilation/Gundam-wallpaper-01.png);
+  background-size: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  border: 1px solid rgb(0, 0, 0);
+  height: 820px;
+  width: 20%;
+}
+
+.main {
+  border: 1px solid rgb(0, 0, 0);
+  height: 820px;
+  width: 80%;
+}
+
+.footer {
+  border: 1px solid rgb(0, 0, 0);
+  /* background-color: rgba(255, 0, 0, 0.6); */
+  height: 150px;
+}
